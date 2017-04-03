@@ -1,0 +1,45 @@
+/*
+ *= require jquery-bar-rating
+ *= require spree/frontend
+*/
+
+#reviews div.header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lit {
+  background-color: #aaaaaa;
+  color: #0000bb;
+  margin-right: 1px;
+  padding-left: 1px;
+}
+
+.unlit {
+  background-color: #aaaaaa;
+  color: #000000;
+  margin-right: 1px;
+  padding-left: 1px;
+}
+
+.star-rating-control {
+  display: inline-block;
+  height: 14px;
+}
+
+.review_hr {
+  size: 1px;
+  background: silver;
+  border: none;
+  margin: 1em 0;
+}
+
+/* Override jquery-bar-rating settings */
+
+.br-wrapper {
+  display: inline-block;
+}
+
+.br-theme-fontawesome-stars .br-widget a {
+  font: normal normal normal 14px/1 FontAwesome;
+}
